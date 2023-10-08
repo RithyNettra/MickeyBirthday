@@ -1,0 +1,49 @@
+body{
+    font-family: 'Happy Monkey', cursive;
+    color: white;
+    background: linear-gradient(#ADD8E6, #FF7F7F);
+    text-shadow: 1px 1px 1px black;
+}
+.Header, .gift_section{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#profile{
+    width: 150px;
+    border-radius: 60%;
+    border: 5px solid #EFB0C9;
+}
+.year_date{
+    background-color: #EFB0C9;
+    padding: 10px;
+    border-radius: 6px;
+}
+#date{
+    margin-top: -8px;
+}
+.Title_Gift{
+    margin-bottom: -8px;
+}
+.gift_img1, .gift_img2, .gift_img3, .gift_img4{
+    margin: 0 auto;
+    width: 400px;
+    height: 520px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("/photos/gift-box.jpg");
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.gift_img1:hover{
+    background-image: url("/photos/IMG_20231003_184340.jpg")
+}
+.gift_img2:hover{
+    background-image: url("/photos/IMG_20231003_184816_618.jpg")
+}
+.gift_img3:hover{
+    background-image: url("/photos/IMG_20231003_184848_489.jpg")
+}
+.gift_img4:hover{
+    background-image: url("/photos/received_299362839148534.jpeg")
+}
